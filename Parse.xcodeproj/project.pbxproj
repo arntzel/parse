@@ -18,9 +18,19 @@
 		6F2FBE0717BAB5D500733D5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE0617BAB5D500733D5D /* Default-568h@2x.png */; };
 		6F2FBE0A17BAB5D500733D5D /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FBE0917BAB5D500733D5D /* CCViewController.m */; };
 		6F2FBE0D17BAB5D500733D5D /* CCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE0B17BAB5D500733D5D /* CCViewController.xib */; };
+		6F2FBE1717BAC2D700733D5D /* CCParseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1517BAC2D700733D5D /* CCParseViewController.m */; };
+		6F2FBE1817BAC2D700733D5D /* CCParseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1617BAC2D700733D5D /* CCParseViewController.xib */; };
+		6F2FBE1E17BAC58F00733D5D /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1917BAC58F00733D5D /* image2.png */; };
+		6F2FBE1F17BAC58F00733D5D /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1A17BAC58F00733D5D /* image3.png */; };
+		6F2FBE2017BAC58F00733D5D /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1B17BAC58F00733D5D /* image4.png */; };
+		6F2FBE2117BAC58F00733D5D /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1C17BAC58F00733D5D /* image5.png */; };
+		6F2FBE2217BAC58F00733D5D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FBE1D17BAC58F00733D5D /* image1.png */; };
+		D59BDCE023B843FFB2319AF5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 175D85E3DF4E4D2481B777B5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09675EC6BFD441D4A4DE3DB0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		175D85E3DF4E4D2481B777B5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2FBDED17BAB5D400733D5D /* Parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2FBDF017BAB5D400733D5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F2FBDF217BAB5D500733D5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,14 @@
 		6F2FBE0817BAB5D500733D5D /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		6F2FBE0917BAB5D500733D5D /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		6F2FBE0C17BAB5D500733D5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController.xib; sourceTree = "<group>"; };
+		6F2FBE1417BAC2D700733D5D /* CCParseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCParseViewController.h; sourceTree = "<group>"; };
+		6F2FBE1517BAC2D700733D5D /* CCParseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCParseViewController.m; sourceTree = "<group>"; };
+		6F2FBE1617BAC2D700733D5D /* CCParseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCParseViewController.xib; sourceTree = "<group>"; };
+		6F2FBE1917BAC58F00733D5D /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		6F2FBE1A17BAC58F00733D5D /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		6F2FBE1B17BAC58F00733D5D /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		6F2FBE1C17BAC58F00733D5D /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		6F2FBE1D17BAC58F00733D5D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,7 @@
 				6F2FBDF117BAB5D500733D5D /* UIKit.framework in Frameworks */,
 				6F2FBDF317BAB5D500733D5D /* Foundation.framework in Frameworks */,
 				6F2FBDF517BAB5D500733D5D /* CoreGraphics.framework in Frameworks */,
+				D59BDCE023B843FFB2319AF5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,7 @@
 				6F2FBDF617BAB5D500733D5D /* Parse */,
 				6F2FBDEF17BAB5D400733D5D /* Frameworks */,
 				6F2FBDEE17BAB5D400733D5D /* Products */,
+				09675EC6BFD441D4A4DE3DB0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +96,7 @@
 				6F2FBDF017BAB5D400733D5D /* UIKit.framework */,
 				6F2FBDF217BAB5D500733D5D /* Foundation.framework */,
 				6F2FBDF417BAB5D500733D5D /* CoreGraphics.framework */,
+				175D85E3DF4E4D2481B777B5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +109,9 @@
 				6F2FBE0817BAB5D500733D5D /* CCViewController.h */,
 				6F2FBE0917BAB5D500733D5D /* CCViewController.m */,
 				6F2FBE0B17BAB5D500733D5D /* CCViewController.xib */,
+				6F2FBE1417BAC2D700733D5D /* CCParseViewController.h */,
+				6F2FBE1517BAC2D700733D5D /* CCParseViewController.m */,
+				6F2FBE1617BAC2D700733D5D /* CCParseViewController.xib */,
 				6F2FBDF717BAB5D500733D5D /* Supporting Files */,
 			);
 			path = Parse;
@@ -96,6 +120,11 @@
 		6F2FBDF717BAB5D500733D5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F2FBE1917BAC58F00733D5D /* image2.png */,
+				6F2FBE1A17BAC58F00733D5D /* image3.png */,
+				6F2FBE1B17BAC58F00733D5D /* image4.png */,
+				6F2FBE1C17BAC58F00733D5D /* image5.png */,
+				6F2FBE1D17BAC58F00733D5D /* image1.png */,
 				6F2FBDF817BAB5D500733D5D /* Parse-Info.plist */,
 				6F2FBDF917BAB5D500733D5D /* InfoPlist.strings */,
 				6F2FBDFC17BAB5D500733D5D /* main.m */,
@@ -114,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F2FBE1017BAB5D500733D5D /* Build configuration list for PBXNativeTarget "Parse" */;
 			buildPhases = (
+				72935C1FDF384CF889588DE5 /* Check Pods Manifest.lock */,
 				6F2FBDE917BAB5D400733D5D /* Sources */,
 				6F2FBDEA17BAB5D400733D5D /* Frameworks */,
 				6F2FBDEB17BAB5D400733D5D /* Resources */,
+				F8839F26BF804CD9A1194593 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,10 +195,47 @@
 				6F2FBE0517BAB5D500733D5D /* Default@2x.png in Resources */,
 				6F2FBE0717BAB5D500733D5D /* Default-568h@2x.png in Resources */,
 				6F2FBE0D17BAB5D500733D5D /* CCViewController.xib in Resources */,
+				6F2FBE1817BAC2D700733D5D /* CCParseViewController.xib in Resources */,
+				6F2FBE1E17BAC58F00733D5D /* image2.png in Resources */,
+				6F2FBE1F17BAC58F00733D5D /* image3.png in Resources */,
+				6F2FBE2017BAC58F00733D5D /* image4.png in Resources */,
+				6F2FBE2117BAC58F00733D5D /* image5.png in Resources */,
+				6F2FBE2217BAC58F00733D5D /* image1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72935C1FDF384CF889588DE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		F8839F26BF804CD9A1194593 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F2FBDE917BAB5D400733D5D /* Sources */ = {
@@ -177,6 +245,7 @@
 				6F2FBDFD17BAB5D500733D5D /* main.m in Sources */,
 				6F2FBE0117BAB5D500733D5D /* CCAppDelegate.m in Sources */,
 				6F2FBE0A17BAB5D500733D5D /* CCViewController.m in Sources */,
+				6F2FBE1717BAC2D700733D5D /* CCParseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +329,7 @@
 		};
 		6F2FBE1117BAB5D500733D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09675EC6BFD441D4A4DE3DB0 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse/Parse-Prefix.pch";
@@ -271,6 +341,7 @@
 		};
 		6F2FBE1217BAB5D500733D5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09675EC6BFD441D4A4DE3DB0 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse/Parse-Prefix.pch";
@@ -299,6 +370,7 @@
 				6F2FBE1217BAB5D500733D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

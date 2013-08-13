@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCParseViewController : UIViewController
+@interface CCParseViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @end
