@@ -7,7 +7,7 @@
 //
 
 #import "CCAppDelegate.h"
-
+#import <Parse/Parse.h>
 #import "CCViewController.h"
 
 @implementation CCAppDelegate
@@ -16,6 +16,18 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"8hqz2qCYekjyFqysEWPNeOCfuuJssLY42uYM8IRW"
+                  clientKey:@"rsGBhJPLHc4ZDKTiL67FCMuJYGLuoJq09JKAR21A"];
+    
+    [PFFacebookUtils initializeFacebook];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    PFACL *defaultACL = [PFACL ACL];
+    // Enable public read access by default, with any newly created PFObjects belonging to the current user
+    [defaultACL setPublicReadAccess:YES];
+    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+    
     self.viewController = [[CCViewController alloc] initWithNibName:@"CCViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
